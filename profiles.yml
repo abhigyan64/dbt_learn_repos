@@ -1,0 +1,13 @@
+dbt_learn_repos:
+  outputs:
+    dev:
+      account: VGMMHEO-DJC82614
+      database: RAW
+      password: Sigmoidanalytics#1947
+      role: Accountadmin
+      schema: staging
+      threads: 1
+      type: snowflake
+      user: ABHIGYAN
+      warehouse: COMPUTE_WH
+  target: dev
